@@ -8,11 +8,11 @@ namespace ConsoleApp3
 {
     public abstract class Factura
     {
-        public int Numero { get; set; }
+        public  virtual int Numero { get; set; }
 
-        public string Concepto { get; set; }
+        public virtual string Concepto { get; set; }
 
-        public double Importe { get; set; }
+        public virtual double Importe { get; set; }
 
         public Factura (int numero, string concepto, double importe) {
 
@@ -21,6 +21,7 @@ namespace ConsoleApp3
             this.Importe = importe;
         
         }
+        public Factura () { }
 
         public abstract double calcularIva();
 

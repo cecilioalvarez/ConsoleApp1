@@ -17,8 +17,8 @@ namespace ConsoleApp3
                 return new FacturaIVANormal(numero,concepto,importe);
             }else
             {
-
-                return new FacturaIVAReducido(numero, concepto, importe);
+               
+                return new FacturaProxyCorreo(new FacturaIVAReducido(numero, concepto, importe));
             }
 
 
