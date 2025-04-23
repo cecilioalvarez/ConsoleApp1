@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
-    internal class SocioJubilado
+    internal class SocioJubilado:Socio
     {
     }
 }

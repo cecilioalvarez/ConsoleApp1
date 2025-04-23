@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
-    internal class SocioNino
+    internal class SocioNino:Socio
     {
     }
 }

@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp5
+namespace ConsoleApp11
 {
-    internal class SocioAdulto:Socio
+    public abstract class ComandoUsuario
     {
+
+        public abstract void Ejecutar(Usuario usuario);
+       
     }
 }

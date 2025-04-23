@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp5
+namespace ConsoleApp7
 {
-    internal class Socio
+    public class Regalo
     {
+
         public string Nombre { get; set; }
-        public int Edad { get; set; }
 
-        public string Tarjeta { get;set; }
+        public Regalo(string nombre) { 
+        
+            Nombre = nombre;
+        }
 
-        public Socio() { }
+
     }
 }
